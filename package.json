@@ -1,0 +1,18 @@
+{
+  "name": "slides-integracao-continua",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aceleradora-TW/slides-integracao-continua.git",
+  "author": "othman853 <anuar.yasser@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "reveal-md slides.md --theme thoughtworks",
+    "build": "./scripts/build.sh",
+    "test": "npm run build && open build/index.html",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^0.12.0",
+    "reveal-md": "^0.1.3"
+  }
+}
