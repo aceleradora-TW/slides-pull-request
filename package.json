@@ -1,8 +1,8 @@
 {
-  "name": "slides-integracao-continua",
+  "name": "slides-pull-requests",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/aceleradora-TW/slides-integracao-continua.git",
+  "repository": "https://github.com/aceleradora-TW/slides-pull-request.git",
   "author": "othman853 <anuar.yasser@gmail.com>",
   "license": "MIT",
   "scripts": {
