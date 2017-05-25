@@ -1,3 +1,3 @@
-# Pull Requests Aceleradora
+# Pull Requests
 
 ---
